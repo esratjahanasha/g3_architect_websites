@@ -1,5 +1,49 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:wght@400;700;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:wght@400;700;800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: "Work Sans", serif;
+}
+header{
+    background:#feecd6;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    display: flex;  
+}
+nav>h3{
+    color:#131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+ul li{
+   list-style: none;
+   margin-left: 50px;
+}
+li>a{
+text-decoration: none;
+color:#424242;
+font-weight: 500;
+font-size: 1 rem;
+}
+.banner-content{
+    margin:0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
 }
