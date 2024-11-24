@@ -126,13 +126,11 @@ main {
   font-weight: 500;
   color: #727272;
 }
-
 .sponsors-content {
   width: 542px;
   margin: 5rem auto 0;
   text-align: center;
 }
-
 .sponsors-content > p {
   margin-top: 1rem;
   color: #727272;
@@ -165,7 +163,6 @@ border-radius: 8px;
 background-color:#FFFFFF ;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, .06);
 }
-
 .badge{
   width:35%;
   background-color: #FF900E;
@@ -176,7 +173,6 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, .06);
   position: relative;
   bottom: 100px;
   right: 50px;
-
 }
 .badge p{
   margin:0;
@@ -242,39 +238,32 @@ footer{
     width:90%;
     margin: 0 auto;
   }
-
   .sponsors-list{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
   }
-
-
   .features-image img{
     width: 100%;
   }
   .badge{
-   width: 40%;
-
-    bottom: 100px;
-    right: 0px;
-  
-  }
+    width:40%;
+     left:0px;
+     }
   footer{
     max-width: 1200px;
     margin: 0 auto;
   }
 }
 /* medium devices or tablets */
-@media screen and (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 960px) {
   header {
     padding: 50px;
   }
   main{
     padding:0 50px;
   }
-
   .teams-container,.features{
     flex-direction: column;
   }
@@ -287,7 +276,6 @@ footer{
   }
   .team-content {
     margin-top: 1rem;
-   
   }
   .teams-container, .facts{
     text-align: center;
@@ -298,7 +286,6 @@ footer{
   .facts> p{
   margin:0 auto;
   }
-
     .sponsors-content{
     width:90%;
     margin: 1rem auto 0;
@@ -307,7 +294,6 @@ footer{
     text-align: center;
   }
   .badge{
- 
  width:30%;
   left:0px;
   }
